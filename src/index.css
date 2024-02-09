@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #10002b;
+  /*background-color: #10002b;*/
+  background-color: #e85d04;
   margin: 2rem;
 }
 
@@ -21,6 +22,7 @@ code {
 .input-field {
   padding: 0;
   background-color: blanchedalmond;
+  background-color: #ffff3f;
   height: 2rem;
   border: 2px solid blanchedalmond;
   border-radius: 5px;
@@ -35,8 +37,10 @@ p {
 }
 
 .last-extracted {
-  color: #ef476f;
+  /*color: #ef476f;*/
+  color: #006400;
   font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .container {
@@ -46,7 +50,8 @@ p {
 }
 
 .student {
-  background-color: #284b63;
+  /*background-color: #284b63;*/
+  background-color: #ffba08;
   margin-bottom: 1rem;
   cursor: pointer;
   text-align: center;
@@ -55,11 +60,13 @@ p {
 }
 
 .excluded {
-  background-color: blanchedalmond;
+  /*background-color: blanchedalmond;*/
+  background-color: #ffff79;
 }
 
 .extracted {
-  background-color: #00b4d8;
+  /*background-color: #00b4d8;*/
+  background-color: #80b918;
   pointer-events: none;
 }
 
